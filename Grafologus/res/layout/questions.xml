@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Questions"
+    android:background="#2D3041"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#FCEF9A"
+        android:text="Adja meg a kérdéssor nevét:" />
+
+    <EditText
+        android:id="@+id/nameofquestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textstyle"
+        android:ems="10"
+        android:height="44dp" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FCEF9A"
+        android:text="Ide írja az 1. kérdését!" />
+
+    <EditText
+        android:id="@+id/firstquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textstyle"
+        android:ems="10"
+        android:height="44dp" />
+
+</LinearLayout>

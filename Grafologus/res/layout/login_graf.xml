@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grafologus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D3041"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/namerequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Kérem adja meg milyen ábrát szeretne kérni a pácienstől!"
+        android:textColor="#FCEF9A"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/tosend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textstyle"
+        android:ems="10"
+        android:hint="Ide írja utasítását a páciensnek"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="s"
+        android:textSize="20sp"
+        android:typeface="sans" >
+    </EditText>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonclicked"
+        android:onClick="OnClick_betu"
+        android:text="Küld"
+        android:textColor="#FCEF9A" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonclicked"
+        android:text="Korábban bekért adatok.."
+        android:textColor="#FCEF9A" />
+
+    <Button
+        android:id="@+id/questionlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonclicked"
+        android:onClick="OnClick_Questionnaire"
+        android:text="Kérdéssorok"
+        android:textColor="#FCEF9A" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonclicked"
+        android:onClick="OnClick_NewQuestionnaire"
+        android:text="Új kérdéssor"
+        android:textColor="#FCEF9A" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonclicked"
+        android:onClick="OnClick_Help"
+        android:text="Súgó"
+        android:textColor="#FCEF9A" />
+
+</LinearLayout>
